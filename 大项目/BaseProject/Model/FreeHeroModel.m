@@ -15,17 +15,12 @@
     return @{@"free" : [FreeHeroFreeModel class]};
 }
 
-+ (NSDictionary *)objectClassInArray{
-    return @{@"all" : [AllHeroAllModel class]};
-}
 @end
 @implementation FreeHeroFreeModel
 
 @end
 
 
-@implementation AllHeroAllModel
 
-@end
 
 

@@ -14,31 +14,19 @@
 + (NSDictionary *)objectClassInArray{
     return @{@"like" : [HeroDetailLikeModel class], @"hate" : [HeroDetailHateModel class]};
 }
-@end
-@implementation HeroDetailBraum_QModel
 
-@end
-
-
-@implementation HeroDetailBraum_RModel
-
++ (NSDictionary *)replacedKeyFromPropertyName{
+    return @{@"ID": @"id", @"desc": @"description"};
+}
 @end
 
+@implementation HeroDetailBraumModel
 
-@implementation HeroDetailBraum_WModel
-
-@end
-
-
-@implementation HeroDetailBraum_BModel
++ (NSDictionary *)replacedKeyFromPropertyName{
+    return @{@"ID": @"id", @"desc": @"description"};
+}
 
 @end
-
-
-@implementation HeroDetailBraum_EModel
-
-@end
-
 
 @implementation HeroDetailLikeModel
 
